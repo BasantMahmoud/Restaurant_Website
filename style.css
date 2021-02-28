@@ -1,0 +1,72 @@
+.nav-link{
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.nav-link:hover{
+    border-bottom: 2px solid green;
+    padding: 20px;
+    transition:all 0.5s;
+}
+/* nav{
+    box-shadow: 2px -2px 0 5px rgba(0, 0, 0, 0.192); 
+   
+} */
+
+#head1{
+    font-size: 55px;
+    mt:
+}
+.home{
+    background-image:url(img/57.jpg);
+    height: 820px;
+    color: white;
+    background-attachment: fixed;
+}
+#header{
+    padding-top: 15em;
+}
+#btn{
+    font-size: 25px;
+}
+.line{
+width: 100%;
+height: 5px;
+background-color: lightgreen;
+}
+.menu{
+    background-color: rgb(201, 209, 209);
+}
+.img-menu{
+    height: 300px;
+    width:  250px;
+}
+.card-title{
+    font-size: 30px;
+}
+.card-text{
+    font-size: 25px;
+}
+#menu-btn{
+    text-transform: uppercase;
+    border-bottom: lightgreen;
+    padding-bottom: 10px;
+}
+.card-body{
+    transition: all .5s;
+}
+.card:hover{
+    box-shadow: 2px 2px 0 2px rgba(0, 0, 0, 0.192);
+    transition: all .5s;
+}
+.img-slide-show{
+    min-height: 700px;
+    max-height: 700px;
+}
+.news{
+    background-color: rgb(201, 209, 209);
+}
+.card-img1{
+    min-height: 300px;
+    max-height: 300px;
+
+}

@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <!--custom css-->
+   <link href="style.css" rel="stylesheet">
+    <title>Restaurant</title>
+  </head>
+  <body>
+   <!---start---navbar---------------->
+    <nav class="navbar navbar-expand-lg navbar-light  pl-4 pr-4 pt-4"style="position: fixed; z-index: 300; background-color:white;width:100%">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style ="text-transform: uppercase;font-size: 25px;">Cloud and Sky</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto me-4 align-items-center" >
+              <li class="nav-item me-4">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">Our Menu</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link" href="#">Contacts</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="btn btn-outline-success" href="#" role="button">Order Online</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-----end---navbar---------------->
+      <!---------Home section----------->
+      <section class="home"> 
+          <div class="container  pt-5">
+              <div class="row">
+                   <div class="col" id="header"><span id="head1"> Restaurant in New york city </span>
+                    <div class="d-flex flex-wrap justify-content-center justify-content-md-center"></div>
+                    <a href="#" class="btn btn-success btn-lg" id="btn">Order Online</a>
+                    <a href="#" class="btn btn-outline-success btn-lg ms-4"style="color:white;">Reservation</a>
+                </div>
+                <div class="col"></div>
+                <div class="col"></div>
+              </div>
+
+          </div>
+
+      </section>
+      <!-------end home section ----------->
+    
+       <!-------about section----------->
+       <section class="about mb-5">
+           <div class="container pt-5">
+               <div class="row">
+                 <div class="col ">
+                    <img src="img/x.jpg" class="rounded border border-success img-thumbnail" style="height: 400px; width:500px;">
+                 </div>
+                 <div class="col mt-5">
+                    <h1 style="text-transform: uppercase;" class="text-center mb-5">Cloud and sky</h1>
+                   <h4 class="lh-lg">It is a great place to discover the best tasty around the world , you will have the best service.<br>come visit us </h4>
+                 </div>
+               </div>
+           </div>
+
+       </section>
+        <!-------end about section----------->
+        <div class="line">
+        </div>
+         <!-------menu section----------->
+         <section class="menu pt-5 pb-5">
+             <div class="container">
+                 <div class="row">
+                    <h1 style="text-transform: uppercase;"class="text-center" >our menu</h1>
+                 <div class="col text-center">
+
+                 <div class="d-flex flex-wrap justify-content-center justify-content-md-center "></div>
+                 <a href="#" class="btn btn-ghost me-5 ms-5">ALL</a>
+                 <a href="#" class="btn btn-ghost me-5 ms-5">BREAKFAST</a>
+                 <a href="#" class="btn btn-ghost me-5 ms-5">LUNCH</a>
+                 <a href="#" class="btn btn-ghost me-5 ms-5">DINNER</a>
+             </div>
+                   </div>
+                    </div>
+             <div class="container">
+                 <div class="row">
+                     <div class="col mt-5 ">
+                      <div class="card mb-3" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2015/11/12/3/WU1203H_Sweet-Spicy-Roasted-Almonds_s4x3.jpg.rend.hgtvcom.826.620.suffix/1449182334210.jpeg" class="img-menu img-thumbnail" style="padding: 0;" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body ">
+                              <h5 class="card-title ">Spiced Almonds</h5>
+                              <p class="card-text ">Our breakfast</p>
+                              <a href="#" class="btn text-success btn-lg border-bottom"id="menu-btn">add to cart</a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                     <div class="col mt-5">
+                      <div class="card mb-3" >
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img src="data:image/jpeg;base64,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" class="img-menu img-thumbnail " style="padding: 0;" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body ">
+                              <h5 class="card-title ">Cheese</h5><br>
+                              <p class="card-text ">Our breakfast</p>
+                              <a href="#" class="btn text-success  btn-lg border-bottom"id="menu-btn">add to cart</a>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="container">
+              <div class="row">
+                  <div class="col mt-5">
+                   <div class="card mb-3" >
+                     <div class="row g-0">
+                       <div class="col-md-4">
+                         <img src="https://cdn.shopify.com/s/files/1/0027/9645/3961/products/Beef_Rib_Eye_shopify_1200x.jpg?v=1539137742" class="img-menu img-thumbnail " style="padding: 0;" alt="...">
+                       </div>
+                       <div class="col-md-8">
+                         <div class="card-body ">
+                           <h5 class="card-title ">Beef</h5>
+                           <p class="card-text ">Our lunch</p>
+                           <a href="#" class="btn text-success  btn-lg border-bottom"id="menu-btn">add to cart</a>
+                           
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                  </div>
+                  <div class="col mt-5">
+                   <div class="card mb-3" >
+                     <div class="row g-0">
+                       <div class="col-md-4">
+                         <img src="https://www.thechunkychef.com/wp-content/uploads/2019/10/Spicy-Honey-Lime-Shrimp-Recipe-overheadclose.jpg" class="img-menu img-thumbnail" style="padding: 0;" alt="...">
+                       </div>
+                       <div class="col-md-8">
+                         <div class="card-body ">
+                           <h5 class="card-title ">Shrimp</h5>
+                           <p class="card-text ">Our dinner</p>
+                           <a href="#" class="btn text-success  btn-lg border-bottom"id="menu-btn">add to cart</a>
+                           
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+              </div>
+          </div>
+         </section>
+          <!-------end menu section----------->
+           <!-------start slide-show section----------->
+           <section class="slide-show">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="img/i1.jpg" class="d-block img-slide-show w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                   <div style="font-size: 120px; text-transform: uppercase;">
+                         grilled <br> meat
+                   </div>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="img/i2.jpg" class="d-block img-slide-show w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div style="font-size: 120px; text-transform: uppercase;">
+                      grilled <br> chicken
+                </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/i4.jpg" class="d-block img-slide-show w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <div style="font-size: 120px; text-transform: uppercase;">
+                      grilled <br> fish
+                </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon p-3" aria-hidden="true" style="height: 140px; width: 110px; background-color: black;opacity: 1; "></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="next">
+                <span class="carousel-control-next-icon p-3" aria-hidden="true" style=" height: 140px; width: 110px; background-color: black;"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </section>
+            <!-------end slide-show section----------->
+             <!-------end gallery section----------->
+             <section class="gallery mt-5">
+               <h1 class="text-center mb-5" style="text-transform: uppercase; letter-spacing: 5px;">gallery</h1>
+               <div class="container">
+                 <div class="row">
+                   <div class="col text-center">
+                     <img src="img/r4.jpg" class="img-fluid ps-5 pe-4" style="height: 350px;">
+
+                   </div>
+
+                 </div>
+
+               </div>
+<h1 class="text-center"><a href="#" class="btn btn-success btn-lg ps-5 pe-5 mt-5" style="font-size: 25px;";  >Reservation</a></h1>
+             </section>
+              <!-------end gallery section----------->
+               <!-------start news section----------->
+               <section class="news pt-5 mt-5 pb-5 mb-5">
+                 <div class="container"> 
+                   <div class="row">
+                     <div class="col"><div class="card bg-dark text-white mt-5 mb-5">
+                      <img src="img/01.jpg" class="card-img1" alt="...">
+                      <div class="card-img-overlay">
+                        <h5 class="card-title">New Branch</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                      </div>
+                    </div></div>
+                     <div class="col"><div class="card bg-dark text-white mt-5 mb-5">
+                      <img src="img/m2.jpg" class="card-img1" alt="...">
+                      <div class="card-img-overlay">
+                        <h5 class="card-title">New Meal</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Last updated 3 mins ago</p>
+                      </div>
+                    </div></div>
+
+                   </div>
+
+                 </div>
+                 <h1 class="text-center"><a href="#" class="btn btn-outline-success btn-lg ps-5 pe-5 mt-5" style="font-size: 25px;";>news archive</a></h1>
+               </section>
+                <!-------end news section----------->
+                 <!-------start contact section----------->
+                 <section class="contact">
+                   <div class="container w-60" >
+                     <div class="row">
+                     <div class="col"><form>
+                      <div class="mb-3">
+                        <label for="name" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+  
+                      </div>
+                      <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="number" class="form-control" id="phone">
+                      </div>
+                      
+                      <div class="mb-3 mt-3 ">
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>1-2 person</option>
+                          <option value="1">2-4</option>
+                          <option value="2">4-8</option>
+                          <option value="3">8-20</option>
+                        </select>
+                      </div>
+                    
+                      
+                
+                    </form></div>
+                     <div class="col">
+                      <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">LastName</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
+    
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        
+                        <div class="mb-3 mt-3 ">
+                          <select class="form-select" aria-label="Default select example">
+                            <option selected>1-2 person</option>
+                            <option value="1">2-4</option>
+                            <option value="2">4-8</option>
+                            <option value="3">8-20</option>
+                          </select>
+                        </div>
+                      
+                        
+                  
+                      </form>
+                     </div>
+                     <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-success ps-4 pe-4">Submit</button>
+
+                    <div class="mb-3 form-check mt-3">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">I'have read and agree of terms & policy</label>
+                    </div>
+                    </div>
+
+                   </div>
+                    
+                 </section>
+                  <!-------end contact section----------->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
